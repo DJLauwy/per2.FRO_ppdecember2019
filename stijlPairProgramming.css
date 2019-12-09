@@ -1,0 +1,80 @@
+body {
+   margin: 0;
+   font-family: sans-serif;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   margin-top:-10px;
+   background: aliceblue;
+   padding:25px;
+}
+
+header input {
+   height: 2em;
+   line-height: 2em;
+   padding: 1em;
+}
+
+header > div{
+   padding:0 25px;
+}
+
+header > div:nth-of-type(2){
+   text-align: right;
+}
+
+main {
+   color: lightseagreen;
+   display: grid;
+   padding:25px;
+   grid-template-columns: auto auto;
+   grid-gap: 25px;
+}
+
+section {
+   background: aliceblue;
+   padding:10px;
+}
+section img {
+   max-width: 100%;
+}
+
+#deco {
+   display: none;   /* alleen bij grotere viewports wordt deze getoond */
+   padding:0;
+   grid-row-start: 5;
+   grid-row-end: 7;
+}
+
+#validatie {
+   text-align: right;
+}
+
+.onder{
+   display: flex;
+   padding:25px;
+   background-color:turquoise;
+}
+
+#opschrijfboek{
+   display: flex;
+   padding:0 0 0 10px;
+}
+
+.illustratie{
+   justify-content: space-between;
+}
+
+.objectCover{
+   object-fit: cover;
+}
+
+@media only screen and (min-width: 1150px) {
+
+   #deco {
+   display: block; 
+   }
+
+}
