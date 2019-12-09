@@ -13,3 +13,5 @@ Na elk afgerond onderdeel dit even bij de docent melden voor akkoord.
 * De link naar GithUb komt in Magister onder vermelding van jullie beider namen.
 
 Veel plezier.
+
+LIVE VERSIE LAU EN JEFFREY: http://12700.hosts2.ma-cloud.nl/bewijzenmap/periode1.2/fro/ppdecember2019/index.html
